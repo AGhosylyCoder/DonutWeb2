@@ -19,7 +19,7 @@ renderer.setPixelRatio( window.devicePixelRatio );
 renderer.setSize( window.innerWidth, window.innerHeight );
 camera.position.setZ(30);
 
-const donutTexture = new THREE.TextureLoader().load('./assets/donutTexture.png')
+const donutTexture = new THREE.TextureLoader().load('https://i.imgur.com/j2Adudu.png')
 
 const Geometry = new THREE.TorusGeometry( 9, 5, 32, 50 );
 const Material = new THREE.MeshStandardMaterial( { map: donutTexture, wireframe: false } );
@@ -79,8 +79,8 @@ function addStar()
 
 // scene.add(me);
 
-const moonTexture = new THREE.TextureLoader().load('./assets/moon.jpg');
-const normalTexture = new THREE.TextureLoader().load('./assets/normal.jpg');
+const moonTexture = new THREE.TextureLoader().load('https://pbs.twimg.com/media/EyywMKnXEAMgfEJ.jpg');
+const normalTexture = new THREE.TextureLoader().load('https://i.imgur.com/PEEqcuo.jpeg');
 
 
 const moon = new THREE.Mesh(
@@ -131,7 +131,7 @@ saturnBelt2.position.y += 1;
 saturnBelt2.position.setX(-20);
 
 
-const spaceTexture = new THREE.TextureLoader().load('./assets/space.jpg');
+const spaceTexture = new THREE.TextureLoader().load('https://cdn.pixabay.com/photo/2020/11/07/01/40/abstract-5719535_1280.jpg');
 scene.background = spaceTexture;
 
 function moveCamera() {
