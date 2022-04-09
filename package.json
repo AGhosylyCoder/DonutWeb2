@@ -1,0 +1,15 @@
+{
+  "name": "donutweb",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^2.9.0"
+  },
+  "dependencies": {
+    "three": "^0.139.2"
+  }
+}
